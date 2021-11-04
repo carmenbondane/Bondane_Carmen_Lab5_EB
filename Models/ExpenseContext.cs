@@ -13,6 +13,7 @@ namespace Bondane_Carmen_Lab5_EB.Models
         {
         }
         public DbSet<Expense> Expense { get; set; }
+        public DbSet<ExpenseDTO> ExpenseDTO { get; set; }
 
     }
 }

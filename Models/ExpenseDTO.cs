@@ -5,12 +5,11 @@ using System.Threading.Tasks;
 
 namespace Bondane_Carmen_Lab5_EB.Models
 {
-    public class Expense
+    public class ExpenseDTO
     {
         public int Id { get; set; }
         public decimal Amount { get; set; }
         public DateTime Date { get; set; }
         public string Description { get; set; }
-        public string Secret { get; set; }
     }
 }
